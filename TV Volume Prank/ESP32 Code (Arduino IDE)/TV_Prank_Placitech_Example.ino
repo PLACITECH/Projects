@@ -74,7 +74,7 @@ void loop(){
       digitalWrite(ind_led, HIGH); // Turn on indicator LED. If you don't want to use an
       // indicator LED, you can just delete that line of code
       delay(60000);
-      for (int i = 0; i < 300; i++){
+      for (int i = 0; i < 10000; i++){
         prank_remote.write(KEY_MEDIA_VOLUME_UP);
         delay(80);
       }
